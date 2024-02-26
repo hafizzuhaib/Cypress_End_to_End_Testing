@@ -25,7 +25,6 @@ describe("Parsing JSON Response",()=>{
             expect(response.body[11].rating.count).to.eq(400)
             expect(response.body[11].category).to.eq("electronics")
         })
-   
     })
     it("Parsing Simple JSON Response",()=>{
         let totalPrice = 0;
@@ -41,7 +40,5 @@ describe("Parsing JSON Response",()=>{
             });
             expect(totalPrice).to.equal(899.23)
         })
-   
     })
-
 })
