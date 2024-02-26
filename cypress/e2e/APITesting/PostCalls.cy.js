@@ -3,7 +3,7 @@ describe("API Testing",()=>{
        
         const requestBody={
             tourist_name: "zuhaib",
-            tourist_email: "ali12345@gmail.com",
+            tourist_email: "ali11sa112345@gmail.com",
             tourist_location: "Lahore"
         }
     cy.request({
@@ -16,7 +16,7 @@ describe("API Testing",()=>{
     .then((response)=>{
             expect(response.status).to.eq(201)
             expect(response.body.tourist_name).to.eq("zuhaib")
-            expect(response.body.tourist_email).to.eq("ali12345@gmail.com")
+            expect(response.body.tourist_email).to.eq("ali11sa112345@gmail.com")
             expect(response.body.tourist_location).to.eq("Lahore")
     })
     })
