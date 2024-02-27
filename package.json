@@ -9,6 +9,8 @@
   "author": "Hafiz Zuhaib",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.6"
+    "ajv": "^8.12.0",
+    "cypress": "^13.6.6",
+    "xml2js": "^0.6.2"
   }
 }
